@@ -95,7 +95,59 @@ header{
     font-size: 14px;
 }
 
-/*Destaque*/
+/*Destaque*/    
+
 section.destaque{
-    background-image: url("");
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+.overlay{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.texto-destaque{
+    color: white;
+    z-index: 3;
+    position: relative;
+    margin-top: 220px;
+    margin-left: 1%;
+    
+}
+.texto-destaque h2{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.texto-destaque h3{
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: justify;
+}
+.texto-destaque p{
+    font-size: 20px;
+}
+.texto-destaque a{
+    background-color:#6f746723;
+    color: white;
+    text-decoration: none;
+    padding: 8px 40px;
+    font-size: 23px;
+    display: inline-block;
+    margin-right: 10px;    
+}
+.texto-destaque a:hover{
+    background-color:#6f746718;
+    transition-delay: 0.3;
+
 }
