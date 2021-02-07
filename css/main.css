@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Helvetica"; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 body{
@@ -87,7 +87,7 @@ header{
     cursor: pointer;
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    
 }
 .header-right a{
     color: white;
@@ -95,17 +95,20 @@ header{
     font-size: 14px;
 }
 
+
 /*Destaque*/    
 
 section.destaque{
     background-image: url("../img/bg.jpg");
-    background-size: cover;
+    background-size:cover;
     background-position: center;
+    background-position-y: 10%;
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
     position: absolute;
     z-index: 1;
 }
+
 .overlay{
     z-index: 2;
     position: absolute;
@@ -126,13 +129,14 @@ section.destaque{
 }
 .texto-destaque h2{
     font-size: 40px;
-    text-transform: uppercase;
+    
 
 }
 .texto-destaque h3{
     margin: 20px 0;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
+    text-transform: uppercase;
 }
 .texto-destaque p{
     font-size: 20px;
@@ -141,13 +145,26 @@ section.destaque{
     background-color:#6f746723;
     color: white;
     text-decoration: none;
-    padding: 8px 40px;
+    padding: 8px 30px ;
     font-size: 23px;
     display: inline-block;
-    margin-right: 10px;    
+    margin-right: 2px;
+    border-radius: 4%;    
 }
 .texto-destaque a:hover{
     background-color:#6f746718;
     transition-delay: 0.3;
+}
+.texto-destaque i{
+    position: relative;
+    display: inline-block;
+  
+}
 
+.logo-destaque img{
+    position: absolute;
+    z-index: 4;
+    margin-left: 10px ;
+    margin-top: 20px;
+    width: 20%;
 }
