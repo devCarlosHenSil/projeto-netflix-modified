@@ -20,14 +20,20 @@
     
     <link rel="shortcut icon" href="img/icon/icon128.png" type="img/png">
 
+    <link rel="swipe-slide" href="js/script.js" type="text/css">
+
     <title>Netflix Brasil - Projeto de Conclusão - Recriando Página do Netflix</title>
     
     <!-- cdn fontcawesome -->
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    
+    <!-- cdn swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
 </head>
+
 <body>
     <header>
         <div class="center">
@@ -64,7 +70,7 @@
     </header>  
 
     <div class="logo-destaque">
-        <img src="img/logo/vikings.png" alt="logo vinking">
+        <a href="https://www.themoviedb.org/tv/44217-vikings?language=pt-BR" target="_blank"><img src="img/logo/vikings.png" alt="logo vinking"></a>
     </div>
 
     <section class="destaque">
@@ -75,8 +81,8 @@
                 <h3>6º Temporada</h3>
                 <p>Bjorn é o rei de Kattegat, Ivar se torna um fugitivo na Rússia, e Lagertha planeja uma aposentadoria tranquila no campo.</p>
                 <br>
-                <a href=""><i class="fas fa-play">&nbsp; &nbsp;Assistir</a></i>
-                <a href=""><i class="fas fa-info-circle">&nbsp; &nbsp;Mais Informações</a></i>
+                <a href="https://www.youtube.com/watch?v=Y7d0A5re7-0" target="_blank"><i class="fas fa-play">&nbsp; &nbsp;Assistir</a></i>
+                <a href="https://www.facebook.com/Vikings" target="_blank"><i class="fas fa-info-circle">&nbsp; &nbsp;Mais Informações</a></i>
 
             </div>
 
@@ -88,20 +94,20 @@
     <h2>Popular no Netflix</h2>
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="img/catalogo/1.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/2.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/3.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/4.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/5.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/6.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/7.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/8.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/9.jpg" alt="Movie Title"></div>
-        <div class="swiper-slide"><img src="img/catalogo/10.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/723072-host?language=pt-BR" target="_blank"><img src="img/catalogo/1.jpg" alt="Host"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/644092-finding-ohana?language=pt-BR" target="_blank"><img src="img/catalogo/2.jpg" alt="Ohana"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/512200-jumanji-the-next-level?language=pt-BR" target="_blank"><img src="img/catalogo/3.jpg" alt="Jumanji: Próxima Fase"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/338762-bloodshot?language=pt-BR" target="_blank"><img src="img/catalogo/4.jpg" alt="Bloodshot"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/545609-extraction?language=pt-BR" target="_blank"><img src="img/catalogo/5.jpg" alt="Resgate"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/464052-wonder-woman-1984?language=pt-BR" target="_blank"><img src="img/catalogo/6.jpg" alt="Mulher-Maravilha 1984"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/tv/1416-grey-s-anatomy?language=pt-BR" target="_blank"><img src="img/catalogo/7.jpg" alt="Greys Anatomy"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/587496-the-rental?language=pt-BR" target="_blank"><img src="img/catalogo/8.jpg" alt="Vigiados"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/tv/46639-american-gods?language=pt-BR" target="_blank"><img src="img/catalogo/9.jpg" alt="American Gods"></a></div>
+        <div class="swiper-slide"><a href="https://www.themoviedb.org/movie/604822-vanguard?language=pt-BR" target="_blank"><img src="img/catalogo/10.jpg" alt="Agents Vanguard"></a></div>
       
       </div>
  
-       <!-- Add Pagination -->
+      <!-- Add Paginação-->
       <!-- <div class="swiper-pagination"></div> -->
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
@@ -113,25 +119,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 6,
-      spaceBetween: 10,
-      slidesPerGroup: 2,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>    
-
-
-
+        <!-- Inicializar Swiper -->
+        <script type="text/javascript" src="js/script.js"></script>    
 
 </body>
+
 </html>
