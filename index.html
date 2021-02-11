@@ -25,7 +25,8 @@
     <!-- cdn fontcawesome -->
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <header>
@@ -70,17 +71,67 @@
         
             <div class="overlay"> </div><!--overlay-->
             <div class="texto-destaque">
-                <h1></h1>
-                
+                          
                 <h3>6º Temporada</h3>
                 <p>Bjorn é o rei de Kattegat, Ivar se torna um fugitivo na Rússia, e Lagertha planeja uma aposentadoria tranquila no campo.</p>
                 <br>
-                <a href=""><i class="fas fa-play"> Assistir</a></i>
-                <a href=""><i class="fas fa-info-circle"> Mais Informações</a></i>
+                <a href=""><i class="fas fa-play">&nbsp; &nbsp;Assistir</a></i>
+                <a href=""><i class="fas fa-info-circle">&nbsp; &nbsp;Mais Informações</a></i>
 
             </div>
 
         </div><!--texto destaque-->
     </section><!--destaque-->
+
+    <!-- Swiper -->
+    <div class="netflix-slider">
+    <h2>Popular no Netflix</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/catalogo/1.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/2.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/3.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/4.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/5.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/6.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/7.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/8.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/9.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/catalogo/10.jpg" alt="Movie Title"></div>
+      
+      </div>
+ 
+       <!-- Add Pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 6,
+      spaceBetween: 10,
+      slidesPerGroup: 2,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>    
+
+
+
+
 </body>
 </html>
