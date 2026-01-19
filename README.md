@@ -1,72 +1,74 @@
-<div align="center" >
-  <img src="img/screenshots/head.png" width="100%"/>
-</div>
-<!-- ************************************* Baadges ********************************************* -->
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devCarlosHenSil/projeto-netflix-modified?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devCarlosHenSil/projeto-netflix-modified">
-  <a href="https://github.com/tgmarinho/nlw1/commits/master">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devCarlosHenSil/projeto-netflix-modified">
-  </a>
-</p>
+# 🎬 Projeto Netflix (UI Clone)
+
+Clone de interface inspirado na **Netflix**, desenvolvido com **HTML, CSS e JavaScript**, com foco em layout, responsividade e experiência do usuário.
 
 ---
- 
 
-<!-- ************************************* Title ********************************************* -->
+## 📌 Objetivo do Projeto
 
-<h1> <img src="img/logo/logo.png" width="80px" alt="Neflix logo"> Recreating the Netflix Interface </h1>
+Este projeto foi desenvolvido para praticar:
 
-----
-
-<!-- ************************************* About the project ********************************************* -->
-
-<h2> <img src="img/icon/icon128.png" width="20px" alt="Neflix logo"> About the project </h2>
+* Criação de layouts complexos
+* Responsividade com CSS
+* Organização visual de componentes
+* Manipulação básica de JavaScript para interações
 
 ---
-<p align=" justify" >Rereading the interface of the main world streaming site using simple technologies such as HTML5, CSS3 and JavaScript. In this project I structured the layout, using CSS3 techniques through containers and variables, positioned the elements with Flexbox and used a Jquery plugin to make the carousel.
-</p>
 
----
-<h3> Languages / Frameworks / Libraries </h3>
+## 🛠️ Tecnologias Utilizadas
 
-* HTML 5
-* CSS 3 
+* HTML5
+* CSS3
 * JavaScript
-* JQuery
-* [Swiper](https://swiperjs.com/) - Plugin used for the slide effect on the carousel
-* [Font Awesome](https://fontawesome.com/) - Fonts used in the project.
 
-<h3> Tools </h3>
+---
 
-* [Visual Studio Code](https://code.visualstudio.com/) - Development IDE.
+## 🎨 Funcionalidades
 
-<h2>  Project Images </h2>
+* Layout inspirado na interface da Netflix
+* Seções de filmes organizadas em carrossel
+* Design responsivo
+* Interações visuais com JavaScript
 
-<div align="center" >
-  <img src="img/screenshots/head2.png" width="80000px"/>
-</div>
-<div align="center" >
-  <img src="img/screenshots/carouselpng.png" width="80000px"/>
-</div>
-</br>
+---
 
-<h3> Running the Project </h3>
+## ▶️ Como executar o projeto
+
+1. Clone este repositório:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/devCarlosHenSil/projeto-netflix-modified.git
-
-# Access the project folder
-$ cd projeto-netflix-modified
-
-# run the file
-./index.html
+git clone https://github.com/devCarlosHenSil/projeto-netflix-modified.git
 ```
 
-<h3 id="referencias"> ⚓ Referências</h3>
+2. Acesse a pasta do projeto:
 
-* [Digital Innovation](https://web.digitalinnovation.one/track/avanade-angular-developer) - Avanade Angular Developer
+```bash
+cd projeto-netflix-modified
+```
+
+3. Abra o arquivo `index.html` no navegador.
 
 ---
-with ❤️ for [Carlos Henrique](https://github.com/devCarlosHenSil) :punch:
+
+## 📚 O que aprendi com este projeto
+
+* Estruturação de layouts com CSS
+* Uso de Flexbox para organização visual
+* Boas práticas de separação de HTML, CSS e JavaScript
+* Construção de interfaces inspiradas em produtos reais
+
+---
+
+## 🚀 Próximas melhorias
+
+* Refatorar JavaScript para padrões modernos
+* Remover dependências legadas
+* Melhorar acessibilidade
+* Publicar versão online
+
+---
+
+## 👨‍💻 Autor
+
+Carlos Henrique Silva
+[GitHub](https://github.com/devCarlosHenSil)
