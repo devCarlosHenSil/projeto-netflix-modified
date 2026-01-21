@@ -1,0 +1,29 @@
+.hero {
+  height: 90vh;
+  background: url("../assets/images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, #141414 0%, transparent 60%);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 520px;
+}
+
+.hero-title {
+  font-size: 56px;
+  margin: 20px 0;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #ddd;
+}

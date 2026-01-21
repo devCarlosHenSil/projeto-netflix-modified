@@ -1,0 +1,21 @@
+.banner {
+  height: 80vh;
+  background: linear-gradient(to top, #141414, transparent),
+              url("../assets/images/banner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+}
+
+.banner-content p {
+  margin-top: 15px;
+  color: #ddd;
+}

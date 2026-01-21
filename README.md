@@ -1,74 +1,108 @@
-# 🎬 Projeto Netflix (UI Clone)
+# 🎬 Netflix UI Clone
 
-Clone de interface inspirado na **Netflix**, desenvolvido com **HTML, CSS e JavaScript**, com foco em layout, responsividade e experiência do usuário.
+🔗 **Demo online:**  
+https://devcarloshensil.github.io/projeto-netflix-modified/
+
+Clone da interface da **Netflix**, desenvolvido com **HTML, CSS e JavaScript puro**, com foco em **fidelidade visual**, **organização de código** e **boas práticas de Front-end**, seguindo critérios avaliados por **Tech Recruiters** e **Code Review técnico**.
+
+---
+
+## 🎥 Demonstração
+
+![Demonstração do projeto](assets/demo.gif)
+
+> GIF demonstrando a navegação, sliders, efeitos de hover e o comportamento do header ao rolar a página.
 
 ---
 
 ## 📌 Objetivo do Projeto
 
-Este projeto foi desenvolvido para praticar:
+Este projeto foi desenvolvido para:
 
-* Criação de layouts complexos
-* Responsividade com CSS
-* Organização visual de componentes
-* Manipulação básica de JavaScript para interações
+- Praticar a construção de layouts complexos
+- Replicar uma interface real amplamente conhecida
+- Aplicar boas práticas de HTML semântico
+- Organizar CSS de forma modular
+- Utilizar JavaScript moderno sem dependências legadas (sem jQuery)
+- Criar um projeto sólido para portfólio Front-end
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Swiper.js
+- GitHub Pages
 
 ---
 
-## 🎨 Funcionalidades
+## 🎮 Funcionalidades
 
-* Layout inspirado na interface da Netflix
-* Seções de filmes organizadas em carrossel
-* Design responsivo
-* Interações visuais com JavaScript
+- Header dinâmico com efeito de scroll
+- Banner principal (Hero) inspirado na Netflix
+- Sliders horizontais de filmes totalmente funcionais
+- Seção Top 10 com numeração em destaque
+- Hover effects nos cards
+- Layout responsivo
+- Estrutura preparada para múltiplas categorias
 
 ---
 
 ## ▶️ Como executar o projeto
 
-1. Clone este repositório:
-
 ```bash
 git clone https://github.com/devCarlosHenSil/projeto-netflix-modified.git
-```
-
-2. Acesse a pasta do projeto:
-
-```bash
+bash
+Copiar código
 cd projeto-netflix-modified
-```
+Abra o arquivo index.html no navegador.
 
-3. Abra o arquivo `index.html` no navegador.
+## 📂 Estrutura do Projeto
+text
+Copiar código
+projeto-netflix-modified/
+├─ index.html
+├─ css/
+│  ├─ reset.css
+│  ├─ variables.css
+│  ├─ header.css
+│  ├─ hero.css
+│  ├─ buttons.css
+│  └─ rows.css
+├─ js/
+│  ├─ slider.js
+│  └─ header-scroll.js
+├─ assets/
+│  ├─ icons/
+│  ├─ images/
+│  └─ demo.gif
 
 ---
 
 ## 📚 O que aprendi com este projeto
+Construção de interfaces inspiradas em produtos reais
 
-* Estruturação de layouts com CSS
-* Uso de Flexbox para organização visual
-* Boas práticas de separação de HTML, CSS e JavaScript
-* Construção de interfaces inspiradas em produtos reais
+Organização de código Front-end em projetos maiores
+
+Uso de JavaScript moderno
+
+Atenção a detalhes visuais avaliados em code reviews
 
 ---
 
 ## 🚀 Próximas melhorias
+Integração com API de filmes (ex: TMDB)
 
-* Refatorar JavaScript para padrões modernos
-* Remover dependências legadas
-* Melhorar acessibilidade
-* Publicar versão online
+Implementação de busca funcional
+
+Criação de páginas internas (detalhes do filme)
+
+Melhorias avançadas de acessibilidade
 
 ---
 
 ## 👨‍💻 Autor
-
 Carlos Henrique Silva
-[GitHub](https://github.com/devCarlosHenSil)
+GitHub
